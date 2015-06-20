@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select language to translate to :"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <Spinner
+        android:id="@+id/spin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="InefficientWeight" />
+
+    <CheckBox
+        android:id="@+id/checkBox1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate word rather than define obtained from voice recognition"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/save"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_gravity="center"
+        tools:ignore="HardcodedText" />
+    
+    <Button
+          android:id="@+id/share"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="Share"
+          tools:ignore="HardcodedText" />
+    
+      <Button
+          android:id="@+id/about"
+          style="?android:attr/buttonStyleSmall"
+          android:layout_width="fill_parent"
+          android:layout_height="wrap_content"
+          android:layout_gravity="center"
+          android:text="About CamWord"
+          tools:ignore="HardcodedText" />
+
+      
+
+</LinearLayout>

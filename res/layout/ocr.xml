@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    
+    <EditText
+        android:id="@+id/field"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical|top"
+        android:hint="@string/text_hint"
+        android:scrollHorizontally="true" />
+
+    <Button
+        android:id="@+id/scan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/button_text" />
+    
+     <Button
+        android:id="@+id/load"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Image from Gallery"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/copy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Copy to Clipboard"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/translate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Translate"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/define"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Define"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please edit ocred text if not meaningful..."
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/ocr"
+        tools:ignore="ContentDescription"
+        android:scrollHorizontally="true"/>
+
+</LinearLayout>
