@@ -1,2 +1,5 @@
 # CamWord
-CamWord is an android based application that uses character recognition or voice recognition to identify a word and then translate or define on user request. This application can be used to identify a word in real time from a document through camera or get it identified through voice interactions. [Website camword.cf is out of service] 
+CamWord is an android application that uses character recognition and voice recognition to identify a word and then translate or provide definition according to user’s choice. CamWord was developed using Google’s Open Source Tesseract Engine for Optical Character Recognition and Google’s Speech API for Voice Recognition. (Website camword.cf is out of service)
+<br />
+<br />
+--- Developed As Final Year Project For College ---
